@@ -1,0 +1,326 @@
+:root {
+    --green_Color: #4CAF4F
+}
+
+:root {
+    --gray_color: #717171
+}
+.green_color {
+    color: var(--green_Color);
+}
+.gray_color {
+    color: var(--gray_color)
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_for_real {
+    width: 1440px;
+   height: 84px;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.company_name {
+    width: 154.49px;
+    height: 24;
+    display: flex;
+    justify-content: center
+}
+
+.header_many_words {
+    width: 588px;
+    height: 24px;
+    display:flex;
+    
+    justify-content: space-around;
+    white-space: nowrap;
+}
+
+.login_singup {
+    width: 182px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.st_scroll {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section {
+    width: 1440px;
+}
+
+.first_p{
+display: flex;
+align-items: space-between;
+}
+
+.register_button {
+    background-color: var(--green_Color);
+    width: 100px;
+    height: 46px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: aliceblue;
+    border: none;
+}
+
+.test1 {
+    width: 391px;
+    height: 407px;
+}
+
+.clients_and_companies {
+   margin-top: 40px;
+}
+
+.big_text {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.div_s_textom {
+     display: flex;
+    flex-direction: column;
+}
+
+.clients_companies_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clients_companies_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ourclients_text {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.login_button {
+    color: var(--green_Color);
+    border: none;
+    background-color: white;
+}
+
+.singup_button {
+    background-color: var(--green_Color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.manage_your_own {
+   margin-top: 40px;
+}
+
+.manage_your_own_text {
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.manage123 {
+    font-size: 30px;
+}
+
+.is Nextcent suitable for {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.card_icon {
+    width: 267px;
+    height: 144px;
+}
+
+.second_section_main {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.second_section_text {
+    width: 550px;
+}
+
+.few_stats {
+    display: flex;
+    justify-content: space-around;
+    width: 540px;
+}
+
+.prelast_container {
+    display:flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 70px;
+}
+
+.stats_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 540px;
+}
+
+.stat_item {
+    flex: 0 1 calc(50% - 40px); /* Элемент занимает до 50% ширины контейнера минус 40px (gap), не растёт, могет сжиматься */
+    display: flex; /* Включает flexbox для этого элемента */
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box; /* Вся ширина/высота включает padding и border */
+    gap: 13px; 
+}
+
+.stats_text h2,
+.stats_text h4 {
+    margin: 1px;
+    padding: 1px;
+}
+
+.last_big_text {
+   
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.last_text {
+    margin-top: 70px;
+     display: flex;
+    justify-content: center;
+}
+
+.tothetop_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ogo_footer {
+    background-color: #303351;
+    width: 1523px;
+    height: 253px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.ogo_footer p, h3 {
+    color: white;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.footer_copyright p {
+    margin: 2px;
+    padding: 2px;
+}
+
+.icons_footer {
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+}
+
+.logo_footer {
+    width: 191px;
+    height: 29px;
+}
+
+.left_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 250px;
+    padding-top: 5px;
+}
+
+.right_container {
+    display: flex;
+    justify-content: space-around;
+    width: 753px;
+}
+
+.scam_links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.tothetop_button:hover {
+    background: rgb(55, 132, 59);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;         
+    outline: none;        
+    background: none;      
+    box-shadow: none;        
+    padding: 0;            
+    margin: 0;             
+
+}
+
+.tothetop_button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_button {
+    transition: transform 0.3s  cubic-bezier(.4,2,.6,1); /*  ну допустим это я списал */
+}
+
+.register_button:hover {
+    transform: translate(5px, -5px);
+}
