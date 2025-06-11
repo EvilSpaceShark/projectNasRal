@@ -11,10 +11,11 @@
 .gray_color {
     color: var(--gray_color)
 }
+
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body {
@@ -24,8 +25,6 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 .header_for_real {
@@ -59,7 +58,7 @@ body {
     justify-content: space-around; 
 }
 
-.st_scroll {
+.meeting_page {
     margin-top: 33px;
     display: flex;
     align-items: center;
@@ -99,7 +98,7 @@ align-items: space-between;
     font-weight: 600;
 }
 
-.div_s_textom {
+.big_meet_text {
      display: flex;
     flex-direction: column;
 }
@@ -234,10 +233,15 @@ align-items: space-between;
     justify-content: center;
 }
 
-.tothetop_button {
+.tothetop_button  {
+    background-color: var(--green_Color);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 8px;
+    padding: 0 8px;
 }
 
 .ogo_footer {
@@ -247,6 +251,9 @@ align-items: space-between;
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+    justify-content: space-around;
+    margin-top: 70px;
+    box-sizing: border-box;
 }
 
 .ogo_footer p, h3 {
@@ -311,16 +318,27 @@ a {
 
 }
 
+.top_buttons:hover {
+    color: rgb(55, 132, 59);
+}
+
 .tothetop_button2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.register_button {
-    transition: transform 0.3s  cubic-bezier(.4,2,.6,1); /*  ну допустим это я списал */
+.email_input{
+    background: rgba(241, 241, 241, 0.16);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 9px 0 9px 12px;
+    color: white;
 }
 
-.register_button:hover {
-    transform: translate(5px, -5px);
+.subscribe_form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
